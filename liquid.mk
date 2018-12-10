@@ -1,4 +1,4 @@
-# Tre by TioBurla
+# Tree by TioBurla
 
 $(call inherit-product, device/xiaomi/santoni/full_santoni.mk)
 
@@ -17,11 +17,11 @@ BOARD_VENDOR := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 
 # Build  Type Extra
-LIQUID_BUILD_TYPE := HomeMade@TioBurla
+LIQUID_BUILD_TYPE := UNOFFICIAL@TioBurla
 DEVICE_MAINTAINERS="TioBurla"
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.candy.maintainer="tioburla"
+    ro.liquid.maintainer="tioburla"
     
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
