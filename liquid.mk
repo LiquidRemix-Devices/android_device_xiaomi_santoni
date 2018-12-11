@@ -1,5 +1,9 @@
 # Tree by TioBurla
 
+$(call inherit-product, packages/apps/Message/Android.mk
+
+$(call inherit-product, packages/inputmethods/LatinIME/Android.mk
+
 $(call inherit-product, device/xiaomi/santoni/full_santoni.mk)
 
 $(call inherit-product, vendor/liquid/config/common.mk)
